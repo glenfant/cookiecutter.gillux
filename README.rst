@@ -1,3 +1,5 @@
+------------
+
 .. code:: console
                    _    _                 _   _                 _ _ _
                   | |  (_)               | | | |               (_) | |
@@ -7,6 +9,7 @@
    \___\___/ \___/|_|\_\_|\___|\___|\__,_|\__|\__\___|_(_)\__, |_|_|_|\__,_/_/\_\
                                                            __/ |
                                                           |___/
+------------
 
 ``cookiecutter.gillux`` is just another Python project scaffolding template
 for the great `cookiecutter <https://github.com/audreyr/cookiecutter>`_ by
