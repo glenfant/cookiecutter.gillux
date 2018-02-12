@@ -83,7 +83,8 @@ As usual, you may customize the ``cookiecutter.json`` file as described in
 ``cli_command_name``
 
   Type the name of a shell command that's installed with your package. If a
-  name is provided, a ``__main__.py`` module will be added in the package.
+  name is provided, a ``__main__.py`` module will be added in the package. If
+  you don't want a command (you make a pure lib), just leave an empty value.
 
 ``license``
 
