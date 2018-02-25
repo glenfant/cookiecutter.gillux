@@ -8,7 +8,9 @@ verify_ssl = true
 [packages]
 
 cookiecutter = "*"
+sphinx = "*"
 
 
 [dev-packages]
 
+sphinx = "*"

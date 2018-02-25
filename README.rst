@@ -1,3 +1,5 @@
+.. _home:
+
 ===================
 cookiecutter.gillux
 ===================
@@ -22,7 +24,7 @@ Features
 - Tests in their own file layout outside the package source tree.
 
 
-Files layout:
+Files layout for the namespace package ``foo.bar``:
 
 .. code:: console
 
@@ -40,6 +42,8 @@ Files layout:
      test_sample.py
    doc/
    	 # Sphinx pre-cooked skeleton
+     conf.py
+     # ...
 
 Usage
 =====
@@ -85,6 +89,10 @@ As usual, you may customize the ``cookiecutter.json`` file as described in
   Type the name of a shell command that's installed with your package. If a
   name is provided, a ``__main__.py`` module will be added in the package. If
   you don't want a command (you make a pure lib), just leave an empty value.
+
+``use_sphinx```
+
+  Provide a configured skeleton for a Sphinx documentation in the ``doc/`` folder.
 
 ``license``
 
