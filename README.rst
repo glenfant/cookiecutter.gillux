@@ -70,6 +70,10 @@ As usual, you may customize the ``cookiecutter.json`` file as described in
 
   Your contact email that will appear on PyPI and in the documentation.
 
+``organization``
+
+  Your company or group for this software.
+
 ``distro_name``
 
   The name of your project as Python distro name in PyPI.
@@ -79,6 +83,10 @@ As usual, you may customize the ``cookiecutter.json`` file as described in
   The name of the root package. Must be a valid Python name, dotted name are
   allowed to provide a namespace package (as ``foo.bar.baz``). Usually, the
   same as ``distro_name`` (the default value) but you can choose another one.
+
+``short_description``
+
+  A one line description of this software.
 
 ``version``
 
