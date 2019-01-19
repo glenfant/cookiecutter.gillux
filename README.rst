@@ -19,7 +19,7 @@ Features
 - Python 3 only! We don't start anymore new projects with Python 2 today.
 - Generic setuptools enabled package
 - Any level of namespaced package
-- Pre cooked Sphinx skeleton
+- Pre cooked Sphinx skeleton (option that requires to install Sphinx along with cookiecutter)
 - Custom shell command (option)
 - Tests in their own file layout outside the package source tree.
 
@@ -100,7 +100,7 @@ As usual, you may customize the ``cookiecutter.json`` file as described in
 
 ``use_sphinx```
 
-  Provide a configured skeleton for a Sphinx documentation in the ``doc/`` folder.
+  Provide a configured skeleton for a Sphinx documentation in the ``doc/`` folder if you installed Sphinx with cookiecutter.
 
 ``license``
 
